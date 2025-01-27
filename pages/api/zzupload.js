@@ -1,6 +1,6 @@
 // import nextConnect from 'next-connect';
 // import multer from 'multer';
-// import cloudinary from '../../lib/cloudinary';
+// import cloudinary from '@/lib/cloudinary';
 
 // const upload = multer({ dest: 'uploads/' });
 
@@ -37,3 +37,7 @@
 //     bodyParser: false, // Disable default body parser for multer
 //   },
 // };
+
+export default async function POST(req) {
+  
+}
